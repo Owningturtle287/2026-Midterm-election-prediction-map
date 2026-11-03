@@ -22,7 +22,7 @@ Both sitting Senate independents caucus with Democrats. Kevin Kiley is the curre
 2. Exclude Wedgewood and Median Strategies from original-poll review. Wedgewood admitted fabrication; the primary FiftyPlusOne investigation documents it. AP documents Median Strategies. This is evidence about named firms, not evidence that all polls or the election are rigged.
 3. Use third-party forecasts as cross-checks, not independent confirmations: models and markets often ingest the same polls. The House anchor is Call the Map's November 2 district forecast, with four winner overrides: MI-10, PA-01, IA-03 and FL-22. Other confidence estimates are revised without changing the winner. I cannot certify removal of every fake or low-quality poll from third-party models without their complete input archives. This is not a clean-room reconstruction of every polling average.
 4. Preserve split-ticket behavior. Kansas favors Hamilton for Senate and Masterson for governor. Iowa favors Sand for governor and narrowly Hinson for Senate. Texas favors Talarico for Senate but Abbott for governor.
-5. Allow shared polling error. A national Republican overperformance could flip several closely favored Senate seats together. Conversely, a larger anti-administration wave could expand the Democratic map. Uniform error scenarios are sensitivity tests, not newly calibrated forecasts.
+5. Allow shared polling error. A national Republican overperformance could flip several closely favored Senate seats together. Conversely, a larger anti-administration wave could expand the Democratic map. Uniform error scenarios are sensitivity tests, not newly calibrated forecasts. Statewide sensitivity margins are illustrative equivalents derived from my confidence ratings, not predicted vote margins.
 6. Public indexed social posts, local newsroom reporting and early-vote analysis were checked. X/Reddit coverage was incomplete. No private communities, dark-web sources or unindexed information were accessed. Viral posts, rally size and likes were not converted into votes. Ralston's original Nevada work mildly supports Ford; party-registration ballots do not reveal candidate choices.
 7. Candidate quality, incumbency, fundraising, district composition and election mechanics inform sparse-poll races. Speculative gut leans are kept close to 50%, not used to create unsupported certainty.
 
@@ -38,6 +38,8 @@ Both sitting Senate independents caucus with Democrats. Kevin Kiley is the curre
 - **Governor GA Bottoms 53%, NV Ford 58%, VT Janoo 55%:** three very fragile Democratic calls. Ralston supports Ford narrowly; UNH puts Janoo ahead, but Scott's crossover history and conflicting surveys warrant caution. Vermont may require legislative selection if no candidate wins a majority.
 - **Governor KS Masterson 57% / TX Abbott 63%:** incumbency or Republican fundamentals and Emerson polling support Republicans despite much closer or Democratic-favoring Siena results.
 - **House MI-10 Hines 54%, PA-01 Harvie 53%, IA-03 Trone Garriott 56%, FL-22 Dandiya 52%:** the four independent winner overrides are narrow. CO-05 remains Crank 54%, MO-02 Wagner 53%, MI-04 Huizenga 55%, FL-13 Luna 70%, FL-27 Salazar 70%.
+
+Oregon was recalibrated from 82% to 68% Kotek after a final original-source check: independent DHM surveys are close and conflict in direction. The winner remains Kotek, with only a lean.
 
 ## Geography and important election rules
 
@@ -85,7 +87,7 @@ Alaska and Maine can require ranked-choice counts. Vermont's governor needs a ma
 | North Dakota | Kelly Armstrong | R | Kelly Armstrong | R | Not up |
 | Ohio | Mike DeWine | R | Amy Acton | D | 75% |
 | Oklahoma | Kevin Stitt | R | Mike Mazzei | R | 95% |
-| Oregon | Tina Kotek | D | Tina Kotek | D | 82% |
+| Oregon | Tina Kotek | D | Tina Kotek | D | 68% |
 | Pennsylvania | Josh Shapiro | D | Josh Shapiro | D | 99% |
 | Rhode Island | Dan McKee | D | Helena Foulkes | D | 97% |
 | South Carolina | Henry McMaster | R | Alan Wilson | R | 92% |
@@ -767,7 +769,8 @@ Alaska and Maine can require ranked-choice counts. Vermont's governor needs a ma
 - [DDHQ · balance of power](https://votes.decisiondeskhq.com/balance-of-power/2026/governor) — Expert/model cross-check.
 - [Louisiana Secretary of State · election information](https://www.sos.la.gov/ElectionsAndVoting/GetElectionInformation/Pages/default.aspx) — Official all-party primary and runoff rules.
 - [WWNO/WRKF · Louisiana election guide](https://www.wwno.org/election-guide-2026) — Candidate slates cross-check.
+- [OPB/DHM · original Oregon governor poll](https://www.opb.org/pressroom/oregon-governors-race-remains-tight-with-share-of-undecideds-shrinking-according-to-new-opb-commissioned-poll/) — Original commissioning organization; fieldwork September 17–27.
 
 ## Portrait attribution and limitations
 
-1,020 of 1,047 named candidates have sourced, image-validated portraits (97.4%). All Senate candidates and all named predicted winners have photos. The 27 unavailable portraits render labeled initials. Real official or candidate portraits are used when sourced; missing or unavailable images render labeled initials. Individual portrait sources are preserved in dist/assets/portraits.json and linked from the race panel. No candidate images are generated. External images retain their original copyrights; reuse permissions are not implied.
+Real official or candidate portraits are used when sourced; missing or unavailable images render labeled initials. All named predicted winners and all Senate candidates have portraits. Coverage is 1,020 of 1,047 people (97.4%); 27 have no verified photo. Individual portrait sources are preserved in dist/assets/portraits.json and linked from the race panel. No candidate images are generated. External images retain their original copyrights; reuse permissions are not implied.

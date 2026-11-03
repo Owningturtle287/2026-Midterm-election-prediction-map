@@ -31,7 +31,7 @@ Both sitting Senate independents caucus with Democrats. Kevin Kiley is the curre
 2. Exclude Wedgewood and Median Strategies from original-poll review. Wedgewood admitted fabrication; the primary FiftyPlusOne investigation documents it. AP documents Median Strategies. This is evidence about named firms, not evidence that all polls or the election are rigged.
 3. Use third-party forecasts as cross-checks, not independent confirmations: models and markets often ingest the same polls. The House anchor is Call the Map's November 2 district forecast, with four winner overrides: MI-10, PA-01, IA-03 and FL-22. Other confidence estimates are revised without changing the winner. I cannot certify removal of every fake or low-quality poll from third-party models without their complete input archives. This is not a clean-room reconstruction of every polling average.
 4. Preserve split-ticket behavior. Kansas favors Hamilton for Senate and Masterson for governor. Iowa favors Sand for governor and narrowly Hinson for Senate. Texas favors Talarico for Senate but Abbott for governor.
-5. Allow shared polling error. A national Republican overperformance could flip several closely favored Senate seats together. Conversely, a larger anti-administration wave could expand the Democratic map. Uniform error scenarios are sensitivity tests, not newly calibrated forecasts.
+5. Allow shared polling error. A national Republican overperformance could flip several closely favored Senate seats together. Conversely, a larger anti-administration wave could expand the Democratic map. Uniform error scenarios are sensitivity tests, not newly calibrated forecasts. Statewide sensitivity margins are illustrative equivalents derived from my confidence ratings, not predicted vote margins.
 6. Public indexed social posts, local newsroom reporting and early-vote analysis were checked. X/Reddit coverage was incomplete. No private communities, dark-web sources or unindexed information were accessed. Viral posts, rally size and likes were not converted into votes. Ralston's original Nevada work mildly supports Ford; party-registration ballots do not reveal candidate choices.
 7. Candidate quality, incumbency, fundraising, district composition and election mechanics inform sparse-poll races. Speculative gut leans are kept close to 50%, not used to create unsupported certainty.
 
@@ -47,6 +47,8 @@ Both sitting Senate independents caucus with Democrats. Kevin Kiley is the curre
 - **Governor GA Bottoms 53%, NV Ford 58%, VT Janoo 55%:** three very fragile Democratic calls. Ralston supports Ford narrowly; UNH puts Janoo ahead, but Scott's crossover history and conflicting surveys warrant caution. Vermont may require legislative selection if no candidate wins a majority.
 - **Governor KS Masterson 57% / TX Abbott 63%:** incumbency or Republican fundamentals and Emerson polling support Republicans despite much closer or Democratic-favoring Siena results.
 - **House MI-10 Hines 54%, PA-01 Harvie 53%, IA-03 Trone Garriott 56%, FL-22 Dandiya 52%:** the four independent winner overrides are narrow. CO-05 remains Crank 54%, MO-02 Wagner 53%, MI-04 Huizenga 55%, FL-13 Luna 70%, FL-27 Salazar 70%.
+
+Oregon was recalibrated from 82% to 68% Kotek after a final original-source check: independent DHM surveys are close and conflict in direction. The winner remains Kotek, with only a lean.
 
 ## Geography and important election rules
 
@@ -71,6 +73,6 @@ text+=table(['State','Current House delegation (V=vacant)','Forecast'],stateRows
 text+='## All 435 House seats: current versus forecast\n\n'
 text+=table(['District','Current representative','Party','Predicted winner','Party','Favorite chance'],[[r['id'],r['current']['name'],r['current']['party'],r['winner'],r['party'],str(round(max(r['qD'],1-r['qD'])*100))+'%'+(' (party)'if r.get('winnerUnresolved')else'')]for r in sorted(d['house'],key=lambda r:r['id'])])
 text+='## Source register\n\n'+''.join('- ['+s['title']+']('+s['url']+') — '+s['role']+'.\n'for s in d['sources'].values())
-text+='\n## Portrait attribution and limitations\n\nReal official or candidate portraits are used when sourced; missing or unavailable images render labeled initials. Individual portrait sources are preserved in dist/assets/portraits.json and linked from the race panel. No candidate images are generated. External images retain their original copyrights; reuse permissions are not implied.\n'
+text+='\n## Portrait attribution and limitations\n\nReal official or candidate portraits are used when sourced; missing or unavailable images render labeled initials. All named predicted winners and all Senate candidates have portraits. Coverage is 1,020 of 1,047 people (97.4%); 27 have no verified photo. Individual portrait sources are preserved in dist/assets/portraits.json and linked from the race panel. No candidate images are generated. External images retain their original copyrights; reuse permissions are not implied.\n'
 (docs/'FORECAST.md').write_text(text)
 print('exported',len(rows),'comparison rows and full report')
