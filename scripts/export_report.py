@@ -7,9 +7,17 @@ for s in d['currentSenators']:
  if s['notUp']:rows.append(['senate',d['states'][s['state']],s['state']+' '+s['class'],s['name'],s['party'],s['name'],s['party'],'Not up','No','No','Current seat outside the election; subsequent appointments may change the person, not assumed party balance.',d['sources']['senate-roster']['url']])
 cols=['Office','State','Seat','Current officeholder','Current party','Predicted winner or retained incumbent','Predicted party','Judgmental favorite probability','Party change','Boundary changed','Rationale','Sources']
 with (docs/'2026-midterm-comparison.csv').open('w',newline='',encoding='utf-8-sig')as f:w=csv.writer(f);w.writerow(cols);w.writerows(sorted(rows,key=lambda r:(r[0],r[1],r[2])))
-text='''# 2026 Midterm Forecast — November 3, 5:55 p.m. CST
+text='''# 2026 Midterm Forecast — November 3, 3:22 p.m. CST
 
-This is an independent editorial forecast, not live results or a race call. It uses only pre-cutoff evidence. Probabilities are subjective judgments, not a backtested fitted model. The information cutoff is **2026-11-03T17:55:00-06:00**.
+This is an independent editorial forecast, not live results or a race call. It uses only pre-cutoff evidence. Probabilities are subjective judgments, not a backtested fitted model. The information cutoff is **2026-11-03T15:22:00-06:00**.
+
+## Election Day review — 3:22 p.m. CST
+
+**No numerical changes:** House 236 D–199R; Senate 51 D+2 Democratic-caucusing independents–47R; governors 29 D–21R. All race favorites and probabilities are retained.
+
+The original Siena and Emerson release archives did not provide a newly verified independent poll strong enough to change a favorite. The new GOTV Polling Iowa survey is PAC-sponsored, remains in the field, and says regional targets have not yet been applied. It is low-weight counterevidence, not a reason to overturn Sand for governor or make the narrowly favored Hinson a safe Senate pick. Ralston’s November 3 morning Nevada analysis supports keeping the Ford lean, but its candidate estimates are inferred from turnout rather than actual candidate votes. Georgia’s official turnout hub explicitly says it does not update during Election Day. Registration, county turnout and queue reports are not ballot choices.
+
+**Time correction:** the initial 5:55 check was in the morning. Its previous p.m. label was incorrect. This review is as of 3:22 p.m. CST, November 3, 2026. The national totals and candidate choices did not change with the timestamp correction.
 
 ## National comparison
 

@@ -1,6 +1,14 @@
-# 2026 Midterm Forecast — November 3, 5:55 p.m. CST
+# 2026 Midterm Forecast — November 3, 3:22 p.m. CST
 
-This is an independent editorial forecast, not live results or a race call. It uses only pre-cutoff evidence. Probabilities are subjective judgments, not a backtested fitted model. The information cutoff is **2026-11-03T17:55:00-06:00**.
+This is an independent editorial forecast, not live results or a race call. It uses only pre-cutoff evidence. Probabilities are subjective judgments, not a backtested fitted model. The information cutoff is **2026-11-03T15:22:00-06:00**.
+
+## Election Day review — 3:22 p.m. CST
+
+**No numerical changes:** House 236 D–199R; Senate 51 D+2 Democratic-caucusing independents–47R; governors 29 D–21R. All race favorites and probabilities are retained.
+
+The original Siena and Emerson release archives did not provide a newly verified independent poll strong enough to change a favorite. The new GOTV Polling Iowa survey is PAC-sponsored, remains in the field, and says regional targets have not yet been applied. It is low-weight counterevidence, not a reason to overturn Sand for governor or make the narrowly favored Hinson a safe Senate pick. Ralston’s November 3 morning Nevada analysis supports keeping the Ford lean, but its candidate estimates are inferred from turnout rather than actual candidate votes. Georgia’s official turnout hub explicitly says it does not update during Election Day. Registration, county turnout and queue reports are not ballot choices.
+
+**Time correction:** the initial 5:55 check was in the morning. Its previous p.m. label was incorrect. This review is as of 3:22 p.m. CST, November 3, 2026. The national totals and candidate choices did not change with the timestamp correction.
 
 ## National comparison
 
@@ -770,6 +778,9 @@ Alaska and Maine can require ranked-choice counts. Vermont's governor needs a ma
 - [Louisiana Secretary of State · election information](https://www.sos.la.gov/ElectionsAndVoting/GetElectionInformation/Pages/default.aspx) — Official all-party primary and runoff rules.
 - [WWNO/WRKF · Louisiana election guide](https://www.wwno.org/election-guide-2026) — Candidate slates cross-check.
 - [OPB/DHM · original Oregon governor poll](https://www.opb.org/pressroom/oregon-governors-race-remains-tight-with-share-of-undecideds-shrinking-according-to-new-opb-commissioned-poll/) — Original commissioning organization; fieldwork September 17–27.
+- [GOTV Polling · Iowa Election Day release](https://gotvpolling.com/races/IA-SEN) — New low-weight PAC-sponsored release; incomplete regional weighting disclosed.
+- [Georgia Secretary of State · turnout reporting limits](https://sos.ga.gov/page/election-data-hub-unofficial-turnout) — Official notice: no Election Day turnout updates.
+- [Jon Ralston · November 3 morning turnout analysis](https://thenevadaindependent.com/article/the-early-voting-blog-2026-general) — Local expert turnout inference, not actual candidate vote totals.
 
 ## Portrait attribution and limitations
 

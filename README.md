@@ -1,10 +1,12 @@
 # Midterm Atlas · 2026
 
-A complete interactive forecast of the 2026 U.S. House, Senate, and governor elections, frozen at **November 3, 2026, 5:55 p.m. CST**.
+A complete interactive forecast of the 2026 U.S. House, Senate, and governor elections, reviewed at **November 3, 2026, 3:22 p.m. CST**.
 
 **Favorite picks: House 236 D–199 R; Senate 51 D–47 R–2 Democratic-caucusing I; governors 29 D–21 R.** These are predictions, not results. Editorial probabilities are judgmental, not backtested model calibration. Senate expectations averaged across uncertain outcomes are closer to51–52 Democratic-aligned seats.
 
 [Open the interactive atlas](https://owningturtle287.github.io/2026-Midterm-election-prediction-map/) · [Full analysis and all officeholders](docs/FORECAST.md) · [Complete 585-seat comparison CSV](docs/2026-midterm-comparison.csv)
+
+The Election Day review retained all winners and totals. The earlier 5:55 check was in the morning; its prior p.m. label has been corrected. [Read the latest review](docs/FORECAST.md#election-day-review--322-pm-cst).
 
 ## Features
 
