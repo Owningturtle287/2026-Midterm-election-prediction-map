@@ -1,0 +1,9 @@
+.DS_Store
+node_modules/
+*.tar.gz
+*.log
+.cache/
+dist/assets/districts.geojson
+.portrait-cache/
+.portrait-ddhq/
+__pycache__/

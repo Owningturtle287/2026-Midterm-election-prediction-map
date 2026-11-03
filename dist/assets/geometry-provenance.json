@@ -1,0 +1,10 @@
+{
+  "source": "https://tigerweb.geo.census.gov/arcgis/rest/services/TIGERweb/Legislative/MapServer/",
+  "vintage": "2026 election,120th Congress; Missouri119th plan",
+  "retrievedFor": "2026-11-03T17:55:00-06:00",
+  "simplificationDegrees": 0.001,
+  "counts": {
+    "districts": 435
+  },
+  "note": "Census120th geometry outside Missouri,119th Missouri geometry because the2025plan was discarded for the general election."
+}
