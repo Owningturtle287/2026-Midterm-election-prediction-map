@@ -4,7 +4,7 @@ A complete interactive forecast of the 2026 U.S. House, Senate, and governor ele
 
 **Favorite picks: House 236 D–199 R; Senate 51 D–47 R–2 Democratic-caucusing I; governors 29 D–21 R.** These are predictions, not results. Editorial probabilities are judgmental, not backtested model calibration. Senate expectations averaged across uncertain outcomes are closer to51–52 Democratic-aligned seats.
 
-[Open the interactive atlas](https://midterm-atlas-2026-ownturtle.josephkauffmann.chatgpt.site) · [Full analysis and all officeholders](docs/FORECAST.md) · [Complete 585-seat comparison CSV](docs/2026-midterm-comparison.csv)
+[Open the interactive atlas](https://owningturtle287.github.io/2026-Midterm-election-prediction-map/) · [Full analysis and all officeholders](docs/FORECAST.md) · [Complete 585-seat comparison CSV](docs/2026-midterm-comparison.csv)
 
 ## Features
 
@@ -16,6 +16,12 @@ A complete interactive forecast of the 2026 U.S. House, Senate, and governor ele
 - Source register and explicit exclusions for fabricated polling firms. Third-party baselines are not falsely described as a fully decontaminated clean-room poll aggregation.
 
 Portrait coverage: **1,020 of 1,047 named candidates (97.4%)**, including every Senate candidate and every named predicted winner. The remaining 27 use labeled initials.
+
+## GitHub Pages deployment
+
+Pushes to `main` automatically run **Deploy GitHub Pages**. After the build and deployment finish, open the workflow run's **Summary**: the **github-pages** environment and the **Midterm Atlas is live** summary both contain the clickable site link. The workflow can also be started manually with **Run workflow**.
+
+Pages must use **GitHub Actions** as its source in **Settings → Pages → Build and deployment**. The workflow uploads only `dist/`, after checking JavaScript and validating all forecast and map data.
 
 ## Run and verify
 
