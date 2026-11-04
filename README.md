@@ -1,5 +1,9 @@
 # Midterm Atlas · 2026
 
+**Election-night update · about 10:05 p.m. CST:** updated favorite map **House 261 D–174 R; Senate 53 D +2 Democratic-caucusing I–45 R; governors 31 D–19 R.** These totals include uncalled expectations. The atlas can switch between this snapshot and the immutable pre-election forecast. [Full election-night audit](docs/ELECTION-NIGHT.md) · [Every contested race comparison](dist/assets/election-night-comparison.csv).
+
+The original forecast has matched the party in 288/291 called House contests, 23/24 Senate contests and 22/22 governor contests. This partial score is dominated by safe seats, excludes seats not up, and is not final accuracy. DDHQ has projected Democratic House control; individual district calls total 188 D /103 R in this frozen snapshot.
+
 A complete interactive forecast of the 2026 U.S. House, Senate, and governor elections, reviewed at **November 3, 2026, 3:22 p.m. CST**.
 
 **Favorite picks: House 236 D–199 R; Senate 51 D–47 R–2 Democratic-caucusing I; governors 29 D–21 R.** These are predictions, not results. Editorial probabilities are judgmental, not backtested model calibration. Senate expectations averaged across uncertain outcomes are closer to51–52 Democratic-aligned seats.
